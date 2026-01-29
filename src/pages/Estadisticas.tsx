@@ -20,7 +20,7 @@ export const Estadisticas = () => {
 
   return (
     <>
-      <h2>Estadísticas</h2>
+      <h2>Estadísticas página actual</h2>
 
       <select value={status} onChange={(e) => setStatus(e.target.value)}>
         <option value="Alive">Alive</option>
